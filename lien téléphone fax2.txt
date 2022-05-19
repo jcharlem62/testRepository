@@ -1,0 +1,5 @@
+ <a href="mailto:contact@example.com">lien vers mail</a><br>
+        <a href="mailto:recrutement@example.com?subject=demande d'emploi&cc=admin@example.com&bcc=direction@example.com&body=Vous trouverez en pièce jointe mon CV">lien mail complet</a><br>
+        <a href="tel:0627675565">lien vers tel</a><br>
+        <a href="fax:+33500000000">lien vers fax</a><br>
+        <a href="callto:rayan_hidri">lien vers skype</a><br>

@@ -1,0 +1,27 @@
+https://wprock.fr/blog/liens-html-mail-telephone-fax-skype-ts3/#les-liens-html-vers-les-numeros-de-fax
+
+HTML - L'URL mailto:  	
+	
+	
+
+L'URL mailto: permet de générer un nouveau mail sans que l'utilisateur n'ait à saisir l'adresse du destinataire. Tous les sites web utilisent ce type de lien :
+
+Pour m'écrire : san@antonio.net
+
+Le code :
+
+<A HREF="mailto:san@antonio.net">san@antonio.net</A>
+
+On peut aussi ajouter quelques champs à ce mail : adresses en copie, adresses en copie cachée, sujet du mail et même le contenu du mail ! Essayez ce lien :
+
+Pour m'écrire : san@antonio.net
+
+Cela a été possible grâce à la syntaxe suivante (à saisir sur une seule ligne) :
+
+mailto:san@antonio.net
+?subject=Notre affaire
+&cc=partenaire@antonio.net
+&bcc=avocat@antonio.net
+&body=Bonjour
+
+Notez bien la présence du caractère ? à la suite de l'adresse email. Il marque le début de la chaine des arguments. Les arguments sont représentés par des chaînes nom=valeur séparées par des &. Les connaisseurs auront reconnu une syntaxe CGI.

@@ -1,0 +1,16 @@
+Vous vous êtes amusés, comme tout le monde au début, à mettre des frames partout dès que vous avez su marcher. Vous allez bientôt apprendre que tous les sites ne méritent pas des frames. En attendant, vous êtes désespérés de voir certains sites externes s'ouvrir dans une de vos frames.
+
+Cette description vous convient ? Alors cette page est pour vous. Essayez-donc ceci :
+
+<A HREF="URL du site" TARGET="_top">
+
+Sans commentaires...
+
+Il existe 4 noms de fenêtres prédéfinis.
+Chacun a un rôle particulier :
+ _top : fenêtre principale du navigateur,
+ _blank : nouvelle fenêtre vierge,
+ _self : fenêtre courante,
+ _parent : fenêtre contenant la fenêtre active.
+
+Tout le monde ne se donne pas la peine de réaliser des liens externes comme sur ce dernier exemple. Certains créent volontairement des liens externes à l'intérieur de leurs systèmes de frames. Ne vous laissez pas faire ! Allez voir comment forcer l'affichage d'une page en plein écran dans les exemples JavaScript. 

@@ -1,0 +1,15 @@
+Un hyper-lien à l'aide d'un bouton ?
+Pas possib' ?
+SiSSSSSSSSSSSSSSSSSS.
+
+Le code :
+<TABLE BORDER=5 CELLPADDING=0 CELLSPACING=0 ALIGN="CENTER">
+<TR><TD>
+<FORM ACTION="../js/boutonretour.html">
+<INPUT TYPE="SUBMIT" VALUE="Par ici !"></TD>
+</FORM></TR>
+</TABLE>
+
+On a simplement remplacé l'URL d'un programme du serveur (valeur habituelle du paramètre ACTION) par l'URL d'une page HTML. Le serveur est content, il n'a presque rien à faire.
+
+Si vous souhaitez faire un menu à l'aide de ces affreux boutons, pensez que chaque bouton doit être dans un formulaire différent.
